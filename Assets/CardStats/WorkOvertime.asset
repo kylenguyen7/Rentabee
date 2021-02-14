@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a65971cc64824c4995fc51fc9d84910, type: 3}
+  m_Name: WorkOvertime
+  m_EditorClassIdentifier: 
+  title: Work overtime?
+  description: You can work to make some extra money, but only if you have energy.
+  image: {fileID: 21300000, guid: 2a28e1bd0d70ad24691a78bdc0b53c35, type: 3}
+  canBeDenied: 1
+  lumpMoney: 15
+  lumpCredit: 5
+  happiness: 5
+  energyCost: -4
+  noLumpMoney: 0
+  noLumpCredit: 0
+  noHappiness: 0
+  noEnergyCost: 0
